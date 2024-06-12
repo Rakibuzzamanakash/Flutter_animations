@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animation/Example1/example_1.dart';
 
+import 'Example2/example_2.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -15,11 +17,10 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
         scaffoldBackgroundColor: Colors.white
       ),
-      home: Example1(),
+      home: Example2(),
     );
   }
 }
